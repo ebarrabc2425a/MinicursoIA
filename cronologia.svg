@@ -1,0 +1,247 @@
+<svg width="800" height="2100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 24px sans-serif; fill: #2c3e50; }
+    .year { font: bold 16px sans-serif; fill: #e74c3c; }
+    .desc { font: 14px sans-serif; fill: #2c3e50; }
+    .line { stroke: #3498db; stroke-width: 2; }
+    .dot { fill: #e67e22; }
+    a { text-decoration: none; }
+  </style>
+  <!-- Fondo -->
+  <rect width="100%" height="100%" fill="#ecf0f1"/>
+  <!-- Título -->
+  <text x="400" y="40" text-anchor="middle" class="title">Cronología de la Historia de la IA</text>
+  <!-- Línea vertical de la cronología -->
+  <line x1="100" y1="60" x2="100" y2="2050" class="line"/>
+  
+  <!-- Evento 1: 1943 -->
+  <circle cx="100" cy="80" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/McCulloch_y_Pitts" target="_blank">
+    <text x="120" y="85" class="year">1943</text>
+  </a>
+  <text x="180" y="85" class="desc">Modelo de McCulloch y Pitts. Representación simplificada y estática de una neurona</text>
+  
+  <!-- Evento 2: 1950 -->
+  <circle cx="100" cy="140" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Prueba_de_Turing" target="_blank">
+    <text x="120" y="145" class="year">1950</text>
+  </a>
+  <text x="180" y="145" class="desc">"Computing Machinery and Intelligence": Alan Turing propone el test de Turing</text>
+  
+  <!-- Evento 3: 1951 -->
+  <circle cx="100" cy="200" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico" target="_blank">
+    <text x="120" y="205" class="year">1951</text>
+  </a>
+  <text x="180" y="205" class="desc">Arthur Samuel inicia trabajos en aprendizaje automático utilizando el juego de damas</text>
+  
+  <!-- Evento 4: 1956 -->
+  <circle cx="100" cy="260" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Conferencia_de_Dartmouth" target="_blank">
+    <text x="120" y="265" class="year">1956</text>
+  </a>
+  <text x="180" y="265" class="desc">John McCarthy en la Conferencia de Dartmouth acuña el término "Inteligencia Artificial"</text>
+  
+  <!-- Evento 5: 1958 -->
+  <circle cx="100" cy="320" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Perceptr%C3%B3n" target="_blank">
+    <text x="120" y="325" class="year">1958</text>
+  </a>
+  <text x="180" y="325" class="desc"><tspan font-style="italic">Frank Rosenblatt</tspan>. Perceptrón, neurona artificial con mecanismo de aprendizaje</text>
+  
+  <!-- Evento 6: 1961 -->
+  <circle cx="100" cy="380" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Unimate" target="_blank">
+    <text x="120" y="385" class="year">1961</text>
+  </a>
+  <text x="180" y="385" class="desc">Implementa Unimate, el primer robot industrial, en la línea de producción de General Motors</text>
+  
+  <!-- Evento 7: 1966 -->
+  <circle cx="100" cy="440" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/ELIZA" target="_blank">
+    <text x="120" y="445" class="year">1966</text>
+  </a>
+  <text x="180" y="445" class="desc"><tspan font-style="italic">Joseph Weizenbaum</tspan> desarrolla ELIZA, pionero en procesamiento de lenguaje natural</text>
+  
+  <!-- Evento 8: 1969 -->
+  <circle cx="100" cy="500" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Shakey_(robot)" target="_blank">
+    <text x="120" y="505" class="year">1969</text>
+  </a>
+  <text x="180" y="505" class="desc"><tspan font-style="italic">SRI International</tspan> desarrolla Shakey, el primer robot móvil con capacidades de IA</text>
+  
+  <!-- Evento 9: 1970 -->
+  <circle cx="100" cy="560" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Sistema_experto" target="_blank">
+    <text x="120" y="565" class="year">1970</text>
+  </a>
+  <text x="180" y="565" class="desc">Avanzan en sistemas expertos y representación del conocimiento en IA</text>
+  
+  <!-- Evento 10: 1972 -->
+  <circle cx="100" cy="620" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Prolog" target="_blank">
+    <text x="120" y="625" class="year">1972</text>
+  </a>
+  <text x="180" y="625" class="desc">Lanzan el lenguaje de programación PROLOG, fundamental para la IA</text>
+  
+  <!-- Evento 11: 1973 -->
+  <circle cx="100" cy="680" r="5" class="dot"/>
+  <a href="https://en.wikipedia.org/wiki/MYCIN" target="_blank">
+    <text x="120" y="685" class="year">1973</text>
+  </a>
+  <text x="180" y="685" class="desc">Desarrollan MYCIN, un sistema experto para diagnóstico médico en la Universidad de Stanford</text>
+  
+  <!-- Evento 12: 1980 -->
+  <circle cx="100" cy="740" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Robot_aut%C3%B3nomo" target="_blank">
+    <text x="120" y="745" class="year">1980</text>
+  </a>
+  <text x="180" y="745" class="desc">Prototipan los primeros robots móviles autónomos en entornos controlados</text>
+  
+  <!-- Evento 13: 1986 -->
+  <circle cx="100" cy="800" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Retropropagaci%C3%B3n" target="_blank">
+    <text x="120" y="805" class="year">1986</text>
+  </a>
+  <text x="180" y="805" class="desc">Popularizan el algoritmo de retropropagación en redes neuronales</text>
+  
+  <!-- Evento 14: 1987 -->
+  <circle cx="100" cy="860" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Reconocimiento_de_voz" target="_blank">
+    <text x="120" y="865" class="year">1987</text>
+  </a>
+  <text x="180" y="865" class="desc">Implementan los primeros sistemas de reconocimiento de voz en aplicaciones comerciales</text>
+  
+  <!-- Evento 15: 1997 -->
+  <circle cx="100" cy="920" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Deep_Blue" target="_blank">
+    <text x="120" y="925" class="year">1997</text>
+  </a>
+  <text x="180" y="925" class="desc">Deep Blue, de IBM, vence al campeón mundial de ajedrez, Garry Kasparov</text>
+  
+  <!-- Evento 16: 2000 -->
+  <circle cx="100" cy="980" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/ASIMO" target="_blank">
+    <text x="120" y="985" class="year">2000</text>
+  </a>
+  <text x="180" y="985" class="desc">ASIMO es presentado por Honda, siendo un avanzado robot humanoide</text>
+  
+  <!-- Evento 17: 2002 -->
+  <circle cx="100" cy="1040" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Roomba" target="_blank">
+    <text x="120" y="1045" class="year">2002</text>
+  </a>
+  <text x="180" y="1045" class="desc">Roomba es lanzado por iRobot, revolucionando la aspiración doméstica</text>
+  
+  <!-- Evento 18: 2006 -->
+  <circle cx="100" cy="1100" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Deep_learning" target="_blank">
+    <text x="120" y="1105" class="year">2006</text>
+  </a>
+  <text x="180" y="1105" class="desc">Resucitan el interés en el aprendizaje profundo y las redes neuronales</text>
+  
+  <!-- Evento 19: 2009 -->
+  <circle cx="100" cy="1160" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Asistente_virtual" target="_blank">
+    <text x="120" y="1165" class="year">2009</text>
+  </a>
+  <text x="180" y="1165" class="desc">Empiezan a proliferar asistentes virtuales y agentes inteligentes</text>
+  
+  <!-- Evento 20: 2011 (Watson) -->
+  <circle cx="100" cy="1220" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Watson_(computadora)" target="_blank">
+    <text x="120" y="1225" class="year">2011</text>
+  </a>
+  <text x="180" y="1225" class="desc">Watson, de IBM, gana el concurso Jeopardy!, demostrando avances en procesamiento del lenguaje</text>
+  
+  <!-- Evento 21: 2011 (Siri) -->
+  <circle cx="100" cy="1280" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Siri" target="_blank">
+    <text x="120" y="1285" class="year">2011</text>
+  </a>
+  <text x="180" y="1285" class="desc">Siri es lanzado por Apple, transformando la interacción en smartphones</text>
+  
+  <!-- Evento 22: 2012 -->
+  <circle cx="100" cy="1340" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/AlexNet" target="_blank">
+    <text x="120" y="1345" class="year">2012</text>
+  </a>
+  <text x="180" y="1345" class="desc">AlexNet impulsa el uso de GPUs para entrenar redes profundas</text>
+  
+  <!-- Evento 23: 2014 -->
+  <circle cx="100" cy="1400" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Alexa_(asistente_virtual)" target="_blank">
+    <text x="120" y="1405" class="year">2014</text>
+  </a>
+  <text x="180" y="1405" class="desc">Alexa es lanzado por Amazon, expandiendo el uso de asistentes virtuales en el hogar</text>
+  
+  <!-- Evento 24: 2015 -->
+  <circle cx="100" cy="1460" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Conducci%C3%B3n_aut%C3%B3noma" target="_blank">
+    <text x="120" y="1465" class="year">2015</text>
+  </a>
+  <text x="180" y="1465" class="desc">Avanzan en la conducción autónoma, destacando Tesla Autopilot</text>
+  
+  <!-- Evento 25: 2016 -->
+  <circle cx="100" cy="1520" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/AlphaGo" target="_blank">
+    <text x="120" y="1525" class="year">2016</text>
+  </a>
+  <text x="180" y="1525" class="desc">AlphaGo, de DeepMind, derrota a Lee Sedol en una histórica partida de Go</text>
+  
+  <!-- Evento 26: 2017 -->
+  <circle cx="100" cy="1580" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/AlphaZero" target="_blank">
+    <text x="120" y="1585" class="year">2017</text>
+  </a>
+  <text x="180" y="1585" class="desc">AlphaZero, de DeepMind, es presentado, aprendiendo a dominar juegos sin datos previos</text>
+  
+  <!-- Evento 27: 2018 -->
+  <circle cx="100" cy="1640" r="5" class="dot"/>
+  <a href="https://en.wikipedia.org/wiki/GPT-2" target="_blank">
+    <text x="120" y="1645" class="year">2018</text>
+  </a>
+  <text x="180" y="1645" class="desc">GPT-2 es lanzado por OpenAI, marcando un avance en modelos generativos de lenguaje</text>
+  
+  <!-- Evento 28: 2019 -->
+  <circle cx="100" cy="1700" r="5" class="dot"/>
+  <a href="https://en.wikipedia.org/wiki/BERT_%28modelo_de_lenguaje%29" target="_blank">
+    <text x="120" y="1705" class="year">2019</text>
+  </a>
+  <text x="180" y="1705" class="desc">BERT, de Google, mejora la comprensión del lenguaje en búsquedas</text>
+  
+  <!-- Evento 29: 2020 -->
+  <circle cx="100" cy="1760" r="5" class="dot"/>
+  <a href="https://en.wikipedia.org/wiki/GPT-3" target="_blank">
+    <text x="120" y="1765" class="year">2020</text>
+  </a>
+  <text x="180" y="1765" class="desc">GPT-3 es lanzado por OpenAI, consolidando modelos de lenguaje a gran escala</text>
+  
+  <!-- Evento 30: 2022 -->
+  <circle cx="100" cy="1820" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/ChatGPT" target="_blank">
+    <text x="120" y="1825" class="year">2022</text>
+  </a>
+  <text x="180" y="1825" class="desc">ChatGPT, de OpenAI, revoluciona la interacción conversacional con IA basada en GPT-3.5</text>
+  
+  <!-- Evento 31: 2023 -->
+  <circle cx="100" cy="1880" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/GPT-4" target="_blank">
+    <text x="120" y="1885" class="year">2023</text>
+  </a>
+  <text x="180" y="1885" class="desc">GPT-4 es lanzado por OpenAI, llevando la IA conversacional a nuevos niveles de sofisticación</text>
+  
+  <!-- Evento 32: 2024 -->
+  <circle cx="100" cy="1940" r="5" class="dot"/>
+  <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence" target="_blank">
+    <text x="120" y="1945" class="year">2024</text>
+  </a>
+  <text x="180" y="1945" class="desc">Se impulsan avances en IA explicable y ética para aplicaciones diversas</text>
+  
+  <!-- Evento 33: 2025 -->
+  <circle cx="100" cy="2000" r="5" class="dot"/>
+  <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial" target="_blank">
+    <text x="120" y="2005" class="year">2025</text>
+  </a>
+  <text x="180" y="2005" class="desc">Se prevé una integración masiva de la IA en la vida diaria, transformando industrias y servicios públicos</text>
+</svg>
